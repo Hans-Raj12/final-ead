@@ -63,6 +63,12 @@ let express = require('express'),
         });
       }
     )
+    
+    router.put('/update/:id', (req, res, next) => {
+        Recipe.findByIdAndUpdate(req.params.id, req.body).then(result => {
+            res.status(200).json({ message: "Update successful!" });
+        })
+    })
 
 
 module.exports = router;

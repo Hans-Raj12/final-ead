@@ -1,0 +1,16 @@
+.show-recipe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* width: 100%; */
+    margin: 20px;
+}
+.show-recipe-container .recipe-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 40px;
+  }

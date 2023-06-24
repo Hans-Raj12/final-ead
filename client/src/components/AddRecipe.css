@@ -1,0 +1,119 @@
+.add-recipe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .recipe-form {
+      justify-content: center;
+      height: 90%;
+      margin-top: 100px;
+    }
+    
+    fieldset {
+      display: flex;
+      justify-content: center;
+      width: 480px;
+      padding: 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      flex-direction: column;
+    }
+    fieldset h2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:#ffc451;
+    }
+    
+    .recipe-form  label {
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+    
+    sup {
+      color: red;
+      top: -2px;
+      font-size: 95%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline;
+    }
+    
+    .recipe-form  input,
+    select {
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      height: 32px;
+      padding: 2px 8px;
+    }
+    
+    .Field {
+      padding-bottom: 18px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .FieldError {
+      position: absolute;
+      bottom: -6px;
+      color: red;
+      font-size: 12px;
+    }
+    
+    .recipe-form .Row {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .recipe-form button {
+      display:  flex;
+      padding: 12px;
+      width: 240px;
+      margin: auto;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background-color: #ffc451;
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    .recipe-form button:disabled,
+    button[disabled] {
+      border: 1px solid #999999;
+      background-color: #636272;
+      color:black;
+      cursor: not-allowed;
+    text-align: center;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+   
+    }
+    .status{
+      margin-bottom: 5px;
+    }
+    .recipe-form p{
+      margin-top: 5px;
+      font-size: smaller;
+      text-align: center;
+      
+    }
+  
+    .recipe-form  p a{
+      padding: 5px;
+    border-radius: 40px;
+    color: #ffc451;
+    font-weight: bold;
+    }
+    
+    .recipe-form p a:hover{
+      color: #fefefe;
+    background: #ffc451;
+    }
